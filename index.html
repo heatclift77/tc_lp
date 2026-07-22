@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aditya Pratama</title>
+
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Unbounded:wght@200..900&display=swap"
+    rel="stylesheet">
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+
+  <!-- main css -->
+  <link rel="stylesheet" href="index.css">
+</head>
+<script src="./js/main.js"></script>
+
+<body>
+  <div>
+    <!-- NAVIGATION -->
+    <div class="mb-5" style="position: fixed; top: 0; left: 0; width: 100vw; z-index: 999;">
+      <div class="bento-nav-container d-none d-lg-block pt-3 container">
+        <div class="desktop-bento-nav" id="navbar-desktop">
+
+          <!-- Left Logo & Tagline -->
+          <div class="brand-section">
+            <div class="brand-logo">
+              <!-- Starburst Icon -->
+              <img src="images/ico_star_02.png" alt="ico">
+              <span>Influenzailla</span>
+            </div>
+            <div class="brand-tagline">
+              bespoke design and marketing services
+            </div>
+          </div>
+
+          <!-- Right Menu Rows -->
+          <div class="menu-section">
+            <!-- Row 1 -->
+            <div class="menu-row menu-row-top">
+              <a href="#" class="nav-cell top-about">ABOUT</a>
+              <a href="#" class="nav-cell top-services">SERVICES</a>
+              <a href="#" class="nav-cell top-cases">CASES</a>
+              <a href="#" class="nav-cell top-team">TEAM</a>
+              <a href="#" class="nav-cell top-lang">
+                <img src="images/ico_gw_02.png" alt="ico">
+              </a>
+            </div>
+
+            <!-- Row 2 -->
+            <div class="menu-row">
+              <a href="#" class="nav-cell bot-boost">BOOST PROGRAM</a>
+              <a href="#" class="nav-cell bot-products">PRODUCTS</a>
+              <a href="#" class="nav-cell bot-book">BOOK</a>
+              <a href="#" class="nav-cell bot-blog">BLOG</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Responsive Fallback -->
+      <div class="text-center border-secondary d-lg-none"
+        style="position: fixed; width: 100vw; top: 42px; z-index: 101; left: 0;">
+        <div class="container">
+          <div class="mobile-bento-nav">
+            <div class="mobile-header">
+              <div class="mobile-brand">
+                <img src="images/ico_star_02.png" alt="ico">
+                <span>Influenzailla</span>
+              </div>
+              <a href="#" class="mobile-close">Menu</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Vertical Menu Items -->
+      <div
+        style="width: 100vw; height: 100vh; background: black; position: fixed; top: -110%; left: 0; z-index: 100; transition: ease-in-out 0.3s;" id="vertical-menu">
+        <div class="container" style="margin: 0 auto; margin-top: 200px;">
+          <a href="#" class="mobile-menu-item">ABOUT</a>
+          <a href="#" class="mobile-menu-item">SERVICES</a>
+          <a href="#" class="mobile-menu-item">CASES</a>
+          <a href="#" class="mobile-menu-item">TEAM</a>
+          <a href="#" class="mobile-menu-item">BOOST PROGRAM</a>
+          <a href="#" class="mobile-menu-item">PRODUCTS</a>
+          <a href="#" class="mobile-menu-item">BOOK</a>
+          <a href="#" class="mobile-menu-item">BLOG</a>
+          <a href="#" class="mobile-menu-item">
+            <img src="images/ico_gw_02.png" alt="ico">
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="section section-1" id="section-1">
+      <div class="bg-section-1" id="section_01_bg">
+        <div style="height: 80%;" class="container aurora-container">
+          <div class="aurora-item-1">
+            <div class="">
+              <div class="d-flex justify-content-end justify-content-lg-start" style="width: 100%; gap: 0.5rem">
+                <h1 class="common-color-gradient m-0" style="font-family: 'unbounded'; font-weight: 250;">2023</h1>
+                <div style="display: flex; align-items: center;">
+                  <p class="common-color-gradient m-0" style="font-size: 0.7rem; line-height: normal;">hi
+                    there<br />lets
+                    get
+                    started!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-lg-8">
+              <h1 class="main-heading custom_title_01">Influence <span class="special-border-top">your</span>
+                <br />audience
+              </h1>
+            </div>
+            <div class="col-12 col-lg-4 mt-5 mt-lg-0">
+              <img src="./images/ico_star_03.png" alt="ico star" class="hero-illustration">
+              <p class="common-color-gradient mt-2" style="max-width: 400px;">We believe in the power of digital media
+                to
+                transform businesses and
+                connect them with their audiences in
+                meaningful ways.</p>
+            </div>
+          </div>
+        </div>
+        <div class="" style="background: rgba(3, 3, 3, 0.3); height: 20%;">
+          <div class="d-flex align-items-center" style="height: 100%;">
+            <div class="container">
+              <div class="row">
+                <div class="col-6 col-lg-3 p-0" style="padding: 0 auto; margin: 0 auto;">
+                  <div class="p-3 pt-0 pt-lg-3">
+                    <a id="about-direction" href="#section-2" class="common-color-gradient mb-3"
+                      style="text-decoration: none; display: block;">About
+                      us</a>
+                    <div style="height: 2px; width: 100%; background-color: white;"></div>
+                  </div>
+                </div>
+                <div class="col-6 col-lg-3 p-0">
+                  <div class="p-3 pt-0 pt-lg-3">
+                    <a id="expertise-direction" href="#section-3" class="common-color-gradient mb-3"
+                      style="text-decoration: none; display: block;">Expertise</a>
+                    <div style="height: 2px; width: 100%; background-color: white;"></div>
+                  </div>
+                </div>
+                <div class="col-6 col-lg-3 p-0">
+                  <div class="p-3 pt-0 pt-lg-3">
+                    <a id="gs-direction" href="#section-4" class="common-color-gradient mb-3"
+                      style="text-decoration: none; display: block;">Get
+                      Started</a>
+                    <div style="height: 2px; width: 100%; background-color: white;"></div>
+                  </div>
+                </div>
+                <div class="col-6 col-lg-3 p-0">
+                  <div class="p-3 pt-0 pt-lg-3">
+                    <a id="wwd-direction" href="#section-5" class="common-color-gradient mb-3"
+                      style="text-decoration: none; display: block;">What we
+                      do</a>
+                    <div style="height: 2px; width: 100%; background-color: white;"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section section-2" id="section-2">
+      <div class="container hero-container">
+        <div class="star-icon " style="margin-bottom: 1rem; display: flex">
+          <img alt="ico star" src="images/ico_star_03.png" />
+          <img alt="ico star" src="images/ico_star_03.png" />
+          <img alt="ico star" src="images/ico_star_03.png" />
+        </div>
+        <p class="paragraph-top">
+          Our creative design bureau is based in the heart of London and specializes in digital branding, website
+          design, and influence marketing.
+          <br />
+          <br />
+          We believe in the power of digital media to transform businesses and connect them with their audiences in
+          meaningful ways.
+        </p>
+        <p class="common-color-gradient location-tag">London 2006</p>
+        <h1 class="main-heading custom_title_02">We turn your digital <span
+            class="d-none d-lg-inline special-border-bottom">dreams</span><span class="d-lg-none">dreams</span> into
+          <span class="special-border-bottom d-lg-none">reality</span><span class="d-none d-lg-inline">Reality</span>
+        </h1>
+        <p class="paragraph-bottom">Our team of experienced designers and marketing
+          professionals work closely with
+          each client to understand
+          their unique vision and develop tailored solutions that align with their goals.
+          <br />
+          <br />
+          From designing eye-catching logos and brand identities, to building custom websites that engage and convert
+          visitors, to crafting effective influencer marketing campaigns, we are dedicated to helping our clients
+          succeed in the digital space.
+        </p>
+        <div class="widget-01 d-none d-lg-block" style="background-color: rgb(33, 33, 33); width: 220px;">
+          <div class="p-5">
+            <div class="d-flex justify-content-between">
+              <img src="images/img_nebula_01.png" alt="widget img" style="width: 80px; margin: 0 auto;">
+            </div>
+            <p class="common-color-gradient text-center mt-5">Since 2026</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section section-3 container-lg" id="section-3">
+      <div class="row">
+        <div class="col-12 col-lg-6 p-0">
+          <div class="card-01 card-01-img-01">
+            <!-- <img alt="bg-card-1" src="images/bg_aurora_01.jpg" /> -->
+            <div class="card-01-content container">
+              <h2>
+                01
+              </h2>
+              <p>
+                We create unique brand identities that resonate with your target audience and help you stand out in a
+                crowded marketplace
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 p-0">
+          <div class="card-01 card-01-img-02">
+            <!-- <img alt="bg-card-1" src="images/bg_aurora_03.jpg" /> -->
+            <div class="card-01-content container">
+              <h2>
+                02
+              </h2>
+              <p>
+                We build custom websites that are visually stunning, easy to navigate, and optimized for search
+                engines
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 p-0">
+          <div class="card-01 card-01-img-03">
+            <!-- <img alt="bg-card-1" src="images/bg_aurora_02.jpg" /> -->
+            <div class="card-01-content container">
+              <h2>
+                03
+              </h2>
+              <p>
+                We develop influencer campaigns that help you reach a wider audience, build brand awareness, and drive
+                conversions
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 p-0">
+          <div class="card-01 card-01-img-04">
+            <!-- <img alt="bg-card-1" src="images/bg_aurora_05.jpg" /> -->
+            <div class="card-01-content container">
+              <h2>
+                04
+              </h2>
+              <p>
+                We produce high-quality content that engages your audience, builds trust, and reinforces your brand
+                message
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section section-4" id="section-4">
+      <div class="container flower-container py-3">
+        <p class="common-color-gradient d-none-lg">Since 2006</p>
+        <p class="common-color-gradient d-none d-lg-block flower-container-location">London 2006</p>
+        <h1 class="main-heading mt-5 flower-container-heading">Help our clients achive their business <span
+            class="special-border-bottom">objectives</span></h1>
+        <p class="mt-5 flower-container-para-3">We specialize in creating unique and innovative designs that not only
+          capture the essence of
+          your
+          business but
+          also help you achieve your goals. We believe that great design is about creating a seamless user experience
+          that
+          engages and delights your audience, and we work hard to ensure that every design we create meets this high
+          standard.
+        </p>
+
+        <div class="tab-component-01 flower-container-para-tab flower-container-para-1">
+          <ul>
+            <li>
+              <h2 class="second-heading tab-component-01-active">Branding</h2>
+            </li>
+            <li>
+              <h2 class="second-heading">Design</h2>
+            </li>
+            <li>
+              <h2 class="second-heading">Marketing</h2>
+            </li>
+          </ul>
+          <div class="tab-component-01-content">
+            <div class="tab-component-01-subcontent tab-component-01-subcontent-active">
+              <img src="images/img_nebula_01.png" alt="img_nebula">
+              <br />
+              <p>
+                Our team of experts specializes in creating unique and effective designs
+              </p>
+              <p>
+                We created marketing materials that were consistent with the new brand identity, such as business cards,
+                brochures, and social media graphics.
+              </p>
+
+            </div>
+            <div class="tab-component-01-subcontent">
+              <img src="images/img_nebula_01.png" alt="img_nebula">
+              <br />
+              <p>
+                Innovative and effective design solutions for business of our clients
+              </p>
+              <p>
+                We partnered with a technology startup to create a new website that would showcase their innovative
+                product and attract investors.
+              </p>
+
+            </div>
+            <div class="tab-component-01-subcontent">
+              <img src="images/img_nebula_01.png" alt="img_nebula">
+              <br />
+              <p>
+                Our team of experienced designers and marketing professionals work closely
+              </p>
+              <p>
+                We provided the brand with a detailed social media strategy that outlined how they could continue to
+                grow
+                their following and engage with their audience in the future.
+              </p>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="flower-container-para-star">
+          <img src="./images/ico_star_03.png" alt="ico star">
+        </div>
+        <div class="flower-container-para-1">
+          <p class="">
+            Influenzilla is a leading design and marketing agency that offers creative solutions to businesses of all
+            sizes. Our team of experts specializes in creating unique and effective designs that help our clients stand
+            out in a crowded market.
+            <br />
+            <br />
+            Our mission is to help our clients achieve their business objectives through innovative and effective design
+            solutions. We believe that great design is more than just aesthetics. It's about creating a seamless user
+            experience that engages and delights your audience.
+          </p>
+        </div>
+        <div class="flower-container-para-2 d-none d-lg-block">
+          <p>
+            We take pride in our ability to understand the unique needs and goals of each of our clients, and to develop
+            customized solutions that exceed their expectations. Our team of talented designers and marketers work
+            closely with our clients to create a cohesive brand identity, effective marketing strategies, and
+            user-friendly websites and applications.
+            <br />
+            <br />
+            We offer a wide range of services, including branding, web design, social media marketing, graphic design,
+            and more. Our goal is to help our clients achieve success by providing them with the tools and resources
+            they need to grow their business.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="section section-5" id="section-5">
+      <div class="bg-fruit" id="section_05_bg">
+        <div class="container fruit-container" style="height: 100%;">
+          <div class="fruit-container-para-1">
+            <p class="common-color-gradient d-none d-lg-block">
+              hi there, <br />let's get started!
+            </p>
+          </div>
+          <div class="fruit-container-para-2 d-flex gap-3">
+            <div>
+              <p>
+                hi there, <br />let's get started!
+              </p>
+            </div>
+            <div>
+              <p>
+                hi there, <br />let's get started!
+              </p>
+            </div>
+          </div>
+          <div class="fruit-container-para-heading">
+            <h1 class="main-heading">Expertise and <span class="special-border-bottom">experience</span></h1>
+          </div>
+          <div class="fruit-container-para-3">
+            <p class="mt-3 common-color-gradient">We believe that building long-lasting relationships with our clients
+              is key to achieving
+              success. We are
+              passionate about what we do, and we are committed to delivering exceptional results for every client we
+              work
+              with.</p>
+
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-4">
+            <div style="display: flex;">
+              <img src="./images/ico_star_03.png" alt="ico star">
+              <img src="./images/ico_star_03.png" alt="ico star">
+              <img src="./images/ico_star_03.png" alt="ico star">
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 mt-3 mt-lg-0">
+            <p>
+              Our team of talented designers and marketers works closely with each of our clients, taking the time to
+              understand their unique needs and goals, and developing customized solutions that exceed their
+              expectations.
+              <br />
+              <br />
+              We take pride in our ability to create a cohesive brand identity, effective marketing strategies, and
+              user-friendly websites and applications that help our clients achieve success.
+            </p>
+          </div>
+          <div class="col-12 col-lg-4 d-none d-lg-block">
+            <p>
+              So if you're a start-up looking to create a strong brand identity, or an established business looking to
+              revamp your marketing strategy, we have the expertise and experience to help you succeed.
+              <br />
+              <br />
+              Contact us today to learn more about our services and how we can help your business grow. We look forward
+              to
+              hearing from you and starting this exciting journey together.
+            </p>
+          </div>
+          <div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section section-6 container" id="section-6">
+      <div style="align-self: end;">
+        <h1 class="main-heading"><span class="special-border-top">Projects</span> for our clients </h1>
+      </div>
+      <div class="slider-container" style="align-self: start;">
+        <!-- Track tempat slide bergerak -->
+        <div class="slider-track" id="sliderTrack">
+
+          <!-- SLIDE 1 -->
+          <div class="slide">
+            <div class="slide-card bg-dummy-1">
+              <span class="slide-card-category common-color-gradient">branding</span>
+              <h2 class="slide-card-title">Food store identity</h2>
+              <p class="slide-card-description">We worked with a local health food store to create a new brand
+                identity that was
+                both modern and eco-friendly.</p>
+            </div>
+            <div class="slide-card bg-dummy-2">
+              <span class="slide-card-category">web design</span>
+              <h2 class="slide-card-title">Technology startup site</h2>
+              <p class="slide-card-description">We partnered with a technology startup to create a new website that
+                would
+                showcase their innovative product and attract investors.</p>
+            </div>
+          </div>
+
+          <!-- SLIDE 2 -->
+          <div class="slide">
+            <div class="slide-card bg-dummy-3">
+              <span class="slide-card-category">marketing</span>
+              <h2 class="slide-card-title">Fashion instagram marketing</h2>
+              <p class="slide-card-description">Our team helped a new fashion brand grow their Instagram following
+                by
+                over 200%
+                in just three months.</p>
+            </div>
+            <div class="slide-card bg-dummy-4">
+              <span class="slide-card-category">development</span>
+              <h2 class="slide-card-title">Mobile and desktop services</h2>
+              <p class="slide-card-description">Developing modern websites that are optimized for both desktop and
+                mobile
+                devices.</p>
+            </div>
+          </div>
+
+          <!-- SLIDE 3 -->
+          <div class="slide">
+            <div class="slide-card bg-dummy-5">
+              <span class="slide-card-category">branding</span>
+              <h2 class="slide-card-title">Eco packaging design</h2>
+              <p class="slide-card-description">We created marketing materials that were consistent with the new
+                brand
+                identity,
+                such as business cards, brochures, and social media graphics.</p>
+            </div>
+            <div class="slide-card bg-dummy-6">
+              <span class="slide-card-category">marketing</span>
+              <h2 class="slide-card-title">Social media graphics</h2>
+              <p class="slide-card-description">We provided the brand with a detailed social media strategy that
+                outlined how
+                they could continue to grow their following and engage with their audience in the future.</p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Navigasi Slider & Pagination -->
+        <div class="controls-wrapper">
+          <div class="controls-box">
+            <button class="nav-btn prev-btn" id="prevBtn" aria-label="Previous">&lt;</button>
+            <div class="pagination" id="pagination"></div>
+            <button class="nav-btn next-btn" id="nextBtn" aria-label="Next">&gt;</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  </div>
+</body>
+
+</html>
